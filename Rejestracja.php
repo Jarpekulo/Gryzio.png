@@ -12,6 +12,8 @@
             <h1>Zarejestruj się</h1>
 
             <?php
+
+            if(isset($_POST['submit'])){
                 $login = $_POST['login'];
                 $haslo = $_POST['password'];
                 $hasloPotwierdz = $_POST['confirm_password'];
@@ -32,6 +34,7 @@
                     $conn->close();
                 }
             }
+        }
             ?>
 
             <!-- Formularz rejestracyjny -->
@@ -39,8 +42,10 @@
                 <input type="text" placeholder="Login" name="login" required>
                 <input type="password" placeholder="Hasło" name="password" required>
                 <input type="password" placeholder="Potwierdź hasło" name="confirm_password" required>
-                <button type="submit">Zarejestruj się</button>
+                <button type="submit" name="submit">Zarejestruj się</button>
+                
             </form>
+            <br><a href="index.php"> <button>Zaloguj się</button></a>
         </div>
     </div>
 </body>
