@@ -1,1 +1,1 @@
-#oskar juz nie dawal dupy jednak dawal
+#prosze nie oceniac poprzednij commitow to bylo tylko dal testow pozdrawiamy
