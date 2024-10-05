@@ -1,1 +1,1 @@
-tu sie cos stalo
+tu sie cos stalo znege
