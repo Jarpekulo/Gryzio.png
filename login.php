@@ -1,1 +1,1 @@
-#oskar juz nie dawal dupy
+#oskar juz nie dawal dupy jednak dawal
